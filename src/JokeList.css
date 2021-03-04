@@ -1,0 +1,21 @@
+.loading {
+	width: 4em;
+	margin: 200px auto 0 auto;
+	color: tomato;
+}
+
+.JokeList-getmore {
+	margin: 1em 0;
+	font-size: 150%;
+	border-radius: 0.5em;
+	background-color: tomato;
+	color: white;
+	padding: 3px 5px;
+}
+
+.JokeList {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3em;
+}

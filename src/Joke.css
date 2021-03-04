@@ -1,0 +1,33 @@
+.Joke {
+	margin-bottom: 2em;
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.Joke-votearea {
+	display: flex;
+	height: 100%;
+	vertical-align: center;
+	margin-right: 3em;
+}
+
+.Joke-votearea > * {
+	margin-right: 1em;
+}
+.Joke-text {
+	display: inline-block;
+	width: 500px;
+}
+
+.Joke-votes {
+	border: .5px solid lightslategray;
+	padding: 0px 15px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.Joke-lock {
+	margin-left: 40px;
+	margin-right: 8px;
+}
